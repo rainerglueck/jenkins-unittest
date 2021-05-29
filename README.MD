@@ -1,6 +1,6 @@
 
 ## Setting up docker environment
-`docker network create jenkins` (/docker/create-docker-network-jenkins.cmd)
+`docker network create jenkins` [Windows cmd file](/docker/create-docker-network-jenkins.cmd)
 
 
 ## Jenkins
