@@ -9,10 +9,35 @@
     <version>1.0-SNAPSHOT</version>
 
     <repositories>
-        <repository>
+        <!--repository>
             <id>jenkins-releases</id>
             <name>Jenkins Releases</name>
             <url>http://repo.jenkins-ci.org/releases</url>
+        </repository-->
+        <!--repository>
+            <id>repo.jenkins-ci.org</id>
+            <url>https://repo.jenkins-ci.org/public/</url>
+        </repository>
+        <repository>
+            <id>maven-central</id>
+            <url>https://repo1.maven.org/maven2/</url>
+        </repository-->
+        <!--repository>
+            <id>repository.spring.release</id>
+            <name>Spring GA Repository</name>
+            <url>http://repo.spring.io/release</url>
+        </repository>
+        <repository>
+            <id>spring-repo</id>
+            <url>https://repo.spring.io/release</url>
+        </repository-->
+        <repository>
+            <id>maven-central</id>
+            <url>https://repo1.maven.org/maven2/</url>
+        </repository>
+         <repository>
+            <id>repo.jenkins-ci.org</id>
+            <url>https://repo.jenkins-ci.org/public/</url>
         </repository>
     </repositories>
 
@@ -20,12 +45,12 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
 
-        <groovy.core.version>2.4.11</groovy.core.version>
-        <groovy.gmaven.pluginVersion>1.6.1</groovy.gmaven.pluginVersion>
+        <groovy.core.version>3.0.8</groovy.core.version>
+        <groovy.gmaven.pluginVersion>1.12.1</groovy.gmaven.pluginVersion>
         <google.guava.version>20.0</google.guava.version>
 
         <jenkins-spock.version>2.0.0</jenkins-spock.version>
-        <jenkins.version>2.102</jenkins.version>
+        <jenkins.version>1.409</jenkins.version>
         <jenkins.servlet.version>3.1.0</jenkins.servlet.version>
         <jenkins.workflow.cps.version>2.36</jenkins.workflow.cps.version>
         <jenkins.workflow.basic.steps.version>2.6</jenkins.workflow.basic.steps.version>
