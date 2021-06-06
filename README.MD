@@ -1,3 +1,6 @@
+## How to test Jenkins pipelines
+https://itnext.io/unit-testing-a-jenkins-shared-library-9bfb6b599748
+`install maven, groovy`
 
 ## Setting up docker environment
 1. `docker network create jenkins` [Windows cmd file](/docker/create-docker-network-jenkins.cmd)
